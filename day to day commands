@@ -45,16 +45,3 @@
  14.date---> will show date,time,day
 
  15. free -h ---------> used to view available memory in local
-
-
-
-
-
-   19.How extract ".tar.gz" file?
-   ==============================
-   To extract a ".tar.gz" file, you can use the following command in a terminal or command prompt:
-
-   tar -xzvf your_file.tar.gz
-
-
-

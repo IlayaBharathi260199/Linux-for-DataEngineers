@@ -1,0 +1,17 @@
+
+1.How to monitor log live log file ?
+====================================
+Ans -> tail -f log.txt
+
+2. How to view Specific word from log file ?
+============================================
+Ans -> grep <specific_word> <logfile>
+    Eg: grep Completed log.txt
+        grep Failed log.txt
+
+3. How to view a log file page by page ?
+========================================
+Ans -> less <logfile>
+     Eg: 1.less log.txt
+         2.press Enter
+         3.press space to view the log page by page----> space is used to change pages

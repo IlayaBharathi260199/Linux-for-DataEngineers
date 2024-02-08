@@ -1,0 +1,5 @@
+   1.How extract ".tar.gz" file ?
+   ==============================
+   To extract a ".tar.gz" file, you can use the following command in a terminal or command prompt:
+
+   tar -xzvf your_file.tar.gz

@@ -1,0 +1,14 @@
+
+  1.nohup
+  =======
+   In Linux, nohup is a command that stands for "no hang up."
+   It's used to run a command in the background, even after the terminal session from which it was launched has ended.
+   This is particularly useful when you want to run a process that should continue running even if you log out or close the terminal.
+
+   Eg. nohup ./sample.sh >> sample.log &  ----> '>>' used to append log (or) create new log file
+
+
+  2.how to run shellscripts in terminal(sample script -> text.sh)
+      ===================================
+  	1.go to the path where script present
+    2.	nohup ./text.sh  >> text.log &

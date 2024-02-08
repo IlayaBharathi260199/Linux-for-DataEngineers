@@ -1,0 +1,15 @@
+
+   1.how to see history of commands
+   =================================
+   in terminal type "history" and press ENTER
+   in terminal type "history 20"  ---> will show only last 20 commands
+
+
+   eg: history     ----> all
+   eg: history 10  ----> only last 10
+
+   2.How to search previously used commands
+   ========================================
+
+   1.ctrl + R
+   2.type command which you have used previously

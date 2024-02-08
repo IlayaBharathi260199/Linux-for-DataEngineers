@@ -1,0 +1,14 @@
+ grep---> The grep command is used to search for a specified pattern or regular expression in a file or a stream of text
+ ===                                                                                                           --------------
+	1.sample.txt
+	  ==========
+	This is a sample file.
+    It contains some text for demonstration purposes.
+    We will use the grep command to search for specific patterns.
+
+	2.grep sample sample.txt(IP)
+
+	3.This is a sample file.(OP)
+
+	4.for case-insensitive
+	 grep -i Sample sample.txt

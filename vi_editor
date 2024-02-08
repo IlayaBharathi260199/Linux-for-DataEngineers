@@ -1,0 +1,21 @@
+
+ 1.How to edit txt files in terminal ?
+ ====================================
+ Ans: By using vi or vim commands.
+
+   Example:
+             1. vi new.txt press enter
+			 2. After that it will open editor page
+			 3. press 'i' for insert mode ,after pressing 'i' only we can edit the contents in file
+             4. After edit, what you need to do is press 'Esc'
+             5. to save the file with edited contents press ':wq' and press enter
+             6. check file edited or not with cat new.txt
+
+   note: ':q" ---> we can also use this without save and quit
+
+  2.How to view line numbers in vi editor?
+  ======================================
+  1.vi file.txt press enter
+  2.before getting into the insert mode type ":set number" press enter (before insert mode)
+  3.to get into the particular line number(eg:line number 15) type ":15" press enter (before insert mode)
+  4.if you want to delete whole line press "dd" (before insert mode)

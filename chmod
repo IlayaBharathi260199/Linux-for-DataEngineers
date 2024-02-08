@@ -1,0 +1,29 @@
+
+chmod
+=====
+
+The chmod command in Linux is used to change the permissions of a file or directory.
+It allows you to specify who can read, write, or execute a file.
+
+The numeric representation consists of three digits, each representing a different user category:
+
+Owner (User): The first digit represents the owner of the file or directory.
+Group: The second digit represents the group associated with the file or directory.
+Others: The third digit represents other users who are neither the owner nor in the group.
+Permissions are represented by adding the values for specific permissions:
+
+Read (r): 4
+Write (w): 2
+Execute (x): 1
+To give read, write, and execute permissions to a directory for the owner, you can use the following calculation
+
+
+So, to grant full permissions to the owner, you set the first digit to 7. The command looks like this:
+
+* chmod 700 directory_name
+
+Explanation:
+
+7 for the owner grants read (4), write (2), and execute (1) permissions.
+0 for the group and others means no permissions.
+So, the owner has full control over the directory, and the group and others have no access.

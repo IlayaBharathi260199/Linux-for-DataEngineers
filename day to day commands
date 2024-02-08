@@ -1,0 +1,60 @@
+
+ Top Linux commands
+ ==================
+ 1.cd ----> used to select or change  the directories
+   cd .. & cd ../.. -->  navigate to previous directory
+   cd ~ ---> root directory
+
+ 2.ls ----> used to list the contents in the directories (Horizontal)
+   ls -a -----> will show hidden files
+   ls -lrt -----> used to list the contents in the directories (order by date)
+
+ 3.ll ----> used to list the contants in the directories (line by line)(Vertical)
+
+ 4.touch--> used to create .txt files
+
+ 5.cat----> used to view txt files
+   cat -n file.txt --------> used to view txt files with line numbers
+   wc -l file.txt ---------> used to count no of lines in text files
+
+ 6.mkdir--> used to create directories(Folders)
+
+ 7.rmdir--> used to delete directories (if empty)
+ 7.1 rmdir -r --> used to delete directories (if not empty)
+
+ 8.cp ----> used to copy the files or directories to specified location (copy paste)
+
+ 9.mv ----> used to move the files or directories to specified location (cut paste)
+   The mv command is able to move multiple files, as long as the final argument provided to the command is the destination. For example, to move three files into the School directory:
+
+   sysadmin@localhost:~/Documents$ mv numbers.txt letters.txt alpha.txt School
+   sysadmin@localhost:~/Documents$ ls School
+   Art  Engineering  Math  alpha.txt  letters.txt  numbers.txt
+
+   "mv"-Also used to "rename" the file
+   ===================================
+   mv animals.txt zoo.txt
+
+ 10.rm----> used to delete the files
+    rm -r ----> used to delete the directories with files
+
+ 11.pwd---> will show present working  directory
+
+ 13.echo "hi how are you"--> it prints what exactly in double quotes
+
+ 14.date---> will show date,time,day
+
+ 15. free -h ---------> used to view available memory in local
+
+
+
+
+
+   19.How extract ".tar.gz" file?
+   ==============================
+   To extract a ".tar.gz" file, you can use the following command in a terminal or command prompt:
+
+   tar -xzvf your_file.tar.gz
+
+
+
